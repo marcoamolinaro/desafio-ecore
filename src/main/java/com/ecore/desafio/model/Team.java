@@ -3,13 +3,13 @@ package com.ecore.desafio.model;
 public class Team {
 
 	private String id;
-	private String displayName;
+	private String name;
 	
 	public Team() {}
 
-	public Team(String id, String displayName) {
+	public Team(String id, String name) {
 		this.id = id;
-		this.displayName = displayName;
+		this.name = name;
 	}
 
 	public String getId() {
@@ -20,16 +20,16 @@ public class Team {
 		this.id = id;
 	}
 
-	public String getDisplayName() {
-		return displayName;
+	public String getname() {
+		return name;
 	}
 
-	public void setDisplayName(String displayName) {
-		this.displayName = displayName;
+	public void setname(String name) {
+		this.name = name;
 	}
 
 	@Override
 	public String toString() {
-		return "Team [id=" + id + ", displayName=" + displayName + "]";
+		return "Team [id=" + id + ", name=" + name + "]";
 	}
 }
