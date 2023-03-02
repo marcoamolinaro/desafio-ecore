@@ -1,3 +1,3 @@
-INSERT INTO ROLE(NAME) VALUES ('Developer');
-INSERT INTO ROLE(NAME) VALUES ('Product Owner');
-INSERT INTO ROLE(NAME) VALUES ('Tester');
+INSERT INTO predefined_role(NAME) VALUES ('Developer');
+INSERT INTO predefined_role(NAME) VALUES ('Product Owner');
+INSERT INTO predefined_role(NAME) VALUES ('Tester');
